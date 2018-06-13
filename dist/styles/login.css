@@ -1,0 +1,17 @@
+#loginPage {
+    position:  absolute;
+    border: solid 1px black;
+    padding: 5%;
+    margin: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    margin:10%;
+    text-align: center;
+}
+
+#loginPage > input{
+    display: block;
+    text-align: center;
+    margin: 1%;
+}

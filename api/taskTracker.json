@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "firstName": "Dejan",
+      "lastName": "Stjepanovic",
+      "email": "dejan",
+      "password": "bloop",
+      "photo": "example"
+    }
+  ],
+  "habit": [
+    {
+      "id": 1,
+      "userId": 1,
+      "habit": "floss",
+      "habitDescription": "Floss my teeth so they don't fall out",
+      "habitStartDate": "example"
+    }
+  ],
+  "habitSuccess": [
+    {
+      "id": 1,
+      "habitId": 1,
+      "dateCompleted": "example"
+    }
+  ]
+}

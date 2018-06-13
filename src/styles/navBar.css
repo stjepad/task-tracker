@@ -1,0 +1,11 @@
+#navBar {
+    background-color:rgb(32, 182, 18);
+    height:2em;
+    padding:.5em;
+    width:100%;
+}
+#navBar > button{
+    background-color:rgb(32, 182, 18);
+    height: 3em;
+
+}
