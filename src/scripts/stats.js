@@ -1,11 +1,11 @@
 const fragment = document.createDocumentFragment();
 const $ = require("jquery");
 
-const settingsPage = function () {
+const statsPage = function () {
     const logIn = document.createElement("button");
     logIn.type = "button"
     // Button Text
-    logIn.textContent = "settings"
+    logIn.textContent = "stats"
 
     // append to div
    fragment.appendChild(logIn)
@@ -14,7 +14,7 @@ const settingsPage = function () {
 
 
 
-   const settingsDiv = document.getElementById("settingsPage");
-        settingsDiv.appendChild(fragment)
+   const statsDiv = document.getElementById("statsPage");
+        statsDiv.appendChild(fragment)
 }
-module.exports = settingsPage
+module.exports = statsPage

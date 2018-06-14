@@ -7,6 +7,10 @@ const registrationP = require("./registration")
 
      $(document).ready(function () {
         $("#mainPage").hide();
+        $("#statsPage").hide();
+        $("#settingsPage").hide();
+        $("#homePage").hide();
+        $("#navBar").hide();
         $("#registrationPage").hide();
     });
 
@@ -54,8 +58,9 @@ const loginPage = function () {
                     userAuthenticated = true;
                     $("#loginPage").hide();
                     $("#mainPage").show();
+                    $("#navBar").show();
                     // dashboard()
-                    console.log(user)
+
                     // seesionStorage.setItem("userid", user.id)
                     session.saveActiveUser(user);
 

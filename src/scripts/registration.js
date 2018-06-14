@@ -1,6 +1,7 @@
 const fragment = document.createDocumentFragment();
 const $ = require("jquery");
 const userManager = require("../../apiManager/userManager");
+const session = require("../../apiManager/activeUser");
      // Register page
 
 const registrationPage = function () {
@@ -70,13 +71,8 @@ const registrationPage = function () {
                     alert("You have successfully registered. Please log in");
                     $("#registrationPage").hide();
                     $("#loginPage").show();
-                    dashboard()
-                    session.saveActiveUser();
+                    // session.saveActiveUser();
                 });
-
-                // request.fail(function (jqXHR, textStatus) {
-                //     alert("", "Oh no! Something went wrong!", "error");
-                // });
             }
         })
     };
