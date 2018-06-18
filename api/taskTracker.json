@@ -1,12 +1,39 @@
 {
   "user": [
     {
-      "id": 1,
-      "firstName": "Dejan",
-      "lastName": "Stjepanovic",
+      "firstName": "moon",
+      "lastName": "stjepanovic",
       "email": "dejan",
-      "password": "bloop",
-      "photo": "example"
+      "password": "change",
+      "id": 1
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "password": "blue",
+      "email": "blue",
+      "id": 2
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "password": "yellow",
+      "email": "yellow",
+      "id": 3
+    },
+    {
+      "firstName": "bird",
+      "lastName": "bird",
+      "password": "bird",
+      "email": "bird",
+      "id": 4
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "password": "pony",
+      "email": "al",
+      "id": 5
     }
   ],
   "habit": [

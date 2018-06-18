@@ -2,6 +2,7 @@ const fragment = document.createDocumentFragment();
 const $ = require("jquery");
 const userManager = require("../../apiManager/userManager");
 const session = require("../../apiManager/activeUser");
+
      // Register page
 
 const registrationPage = function () {

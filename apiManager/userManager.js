@@ -35,11 +35,11 @@ const userManager = Object.create(null, {
     },
     //  put (update) user
     updateusers: {
-        value: function (Users) {
+        value: function (user) {
             return $.ajax({
-                url: `http://localhost:8088/user/${Users.id}`,
+                url: `http://localhost:8088/user/${user.id}`,
                 method: "PUT",
-                data:Users
+                data:user
             })
         }
     }
