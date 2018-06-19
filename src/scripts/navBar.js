@@ -1,6 +1,7 @@
 const fragment = document.createDocumentFragment()
 const $ = require("jquery");
 const statsPage = require("./stats")
+const homePage = require("./home")
 const userManager = require("../../apiManager/userManager");
 const session = require("../../apiManager/activeUser");
 
@@ -12,6 +13,7 @@ const navBar = function () {
     $("#statsPage").hide();
     $("#settingsPage").hide();
     $("#homePage").hide();
+
   }
 
 
@@ -22,6 +24,8 @@ home.textContent = "HOME"
 home.onclick = function () {
   hideAll()
   $("#homePage").show();
+  homePage()
+
 }
 
 fragment.appendChild(home)
