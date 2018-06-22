@@ -59,7 +59,8 @@ const loginPage = function () {
                     $("#loginPage").hide();
                     $("#mainPage").show();
                     $("#navBar").show();
-                    // dashboard()
+
+
 
                     // seesionStorage.setItem("userid", user.id)
                     session.saveActiveUser(user);

@@ -1,7 +1,7 @@
 {
   "user": [
     {
-      "firstName": "dejan",
+      "firstName": "matt",
       "lastName": "stjepanovic",
       "email": "dejan",
       "password": "bloop",
@@ -34,15 +34,51 @@
       "password": "pony",
       "email": "al",
       "id": 5
+    },
+    {
+      "firstName": "steve",
+      "lastName": "meow",
+      "password": "purry",
+      "email": "kitty",
+      "id": 6
     }
   ],
   "habit": [
     {
-      "id": 1,
-      "userId": 1,
-      "habit": "floss",
-      "habitDescription": "Floss my teeth so they don't fall out",
-      "habitStartDate": "example"
+      "userId": "1",
+      "habitName": "20 push ups",
+      "timeStamp": "Thu Jun 21 2018 15:52:48 GMT-0500 (CDT)",
+      "id": 4
+    },
+    {
+      "userId": "1",
+      "habitName": "eat chicken tenders",
+      "timeStamp": "Thu Jun 21 2018 15:53:31 GMT-0500 (CDT)",
+      "id": 5
+    },
+    {
+      "userId": "1",
+      "habitName": "bloop",
+      "timeStamp": "Thu Jun 21 2018 16:04:17 GMT-0500 (CDT)",
+      "id": 6
+    },
+    {
+      "userId": "1",
+      "habitName": "",
+      "timeStamp": "Thu Jun 21 2018 16:04:21 GMT-0500 (CDT)",
+      "id": 7
+    },
+    {
+      "userId": "1",
+      "habitName": "chicken",
+      "timeStamp": "Thu Jun 21 2018 16:04:27 GMT-0500 (CDT)",
+      "id": 8
+    },
+    {
+      "userId": "1",
+      "habitName": "floooooosh",
+      "timeStamp": "Fri Jun 22 2018 16:06:09 GMT-0500 (CDT)",
+      "id": 9
     }
   ],
   "habitSuccess": [

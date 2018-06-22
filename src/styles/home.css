@@ -1,3 +1,48 @@
-#homepage > array{
-border: solid 1px black;
+
+
+
+.incomplete {
+    background-color: #DCDCDC;
+    border: thin solid #FFFFFF;
+    padding: 5px 15px;
+    margin: 3px 3px 3px 3px;
+    display: inline;
 }
+
+.complete {
+    background-color: rgb(32, 182, 18);
+    border: thin solid #FFFFFF;
+    padding: 5px 15px;
+    margin: 3px 3px 3px 3px;
+    display: inline;
+}
+
+.incomplete > button {
+    background-color: block;
+}
+
+/* text = document.createTextNode(1)
+            console.log(column)
+
+            column.style.color = "rgb(32, 182, 18)";
+            columnDiv.style.backgroundColor = "rgb(32, 182, 18)";
+            columnDiv.style.border = "thin solid #FFFFFF";
+            columnDiv.style.width = "10%";
+            columnDiv.style.height = "10%";
+            columnDiv.style.display = "inline";
+            columnDiv.style.padding = "5px 9px"
+            columnDiv.style.margin= "3px"
+            // columnDiv.onclick.toggle("#col")
+
+
+
+        } else {
+            text = document.createTextNode(0)
+            column.style.color = "#DCDCDC";
+            columnDiv.style.backgroundColor = "#DCDCDC";
+            columnDiv.style.border = "thin solid #FFFFFF"
+            columnDiv.style.width = "10%";
+            columnDiv.style.height = "10%";
+            columnDiv.style.display = "inline";
+            columnDiv.style.padding = "5px 9px"
+            columnDiv.style.margin= "3px" */

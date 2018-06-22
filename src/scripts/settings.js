@@ -27,8 +27,8 @@ firstNameButton.onclick = function () {
             "password": user.password,
             "id":user.id
 })
-console.log(request)
-// sessionStorage.setItem("ActiveUser", JSON.stringify(request))
+
+sessionStorage.setItem("ActiveUser", JSON.stringify(request))
 firstNameButton.textContent = "Edit First Name: " + x
 
 }}

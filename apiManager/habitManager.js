@@ -1,35 +1,42 @@
-//Purpose: Manage habit tracker in session storage
+const $ = require("jquery")
 
-
-const taskManager = Object.create(null, {
-
-    //get user from session storage
-    "getTask": {
-        value: () =>
-            //note the need below to JSON.parse the item we get from session storage.
-           JSON.parse(sessionStorage.getItem("TaskManager"))
-        },
-    //save user to session storage
-    "saveTask": {
-        value: (habit) => {
-             //note the need below to JSON.stringify the item we get from session storage.
-            sessionStorage.setItem("TaskManager", JSON.stringify({
-                "id": habit.id,
-                "userId": user.id,
-                "habit": habit.habit,
-                "habitDescription": habit.habitDescription,
-
-                }))
+const habitManager = Object.create(null, {
+    getAllHabits: {
+        value: function () {
+            return $.ajax("http://localhost:8088/habit")
         }
     },
-    //remove user from session storage
-    "clearTask": {
-        value: () => {
-            sessionStorage.removeItem("TaskManager")
+    getSingleHabits: {
+        value: function (id) {
+            return $.ajax(`http://localhost:8088/habit/${id}`)
+        }
+    },
+    createHabit: {
+        value: function (habitInfo) {
+            return $.ajax({
+                url: "http://localhost:8088/habit",
+                method: "POST",
+                data: habitInfo
+            })
+        }
+    },
+    deleteHabit: {
+        value: function (id) {
+            return $.ajax({
+                url: `http://localhost:8088/habit/${id}`,
+                method: "DELETE"
+            })
+        }
+    },
+    updateHabit: {
+        value: function (habitInfo) {
+            return $.ajax({
+                url: `http://localhost:8088/habit/${habit.id}`,
+                method: "PUT",
+                data: habitInfo
+            })
         }
     }
-
 })
 
-
-module.exports = taskManager
+module.exports = habitManager
