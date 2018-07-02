@@ -3,10 +3,11 @@ const $ = require("jquery");
 const userManager = require("../../apiManager/userManager");
 const session = require("../../apiManager/activeUser");
 const registrationP = require("./registration")
+
      // login page
 
      $(document).ready(function () {
-        $("#mainPage").hide();
+        // $("#mainPage").hide();
         $("#statsPage").hide();
         $("#settingsPage").hide();
         $("#homePage").hide();
@@ -57,7 +58,8 @@ const loginPage = function () {
                     // Matching user so set flag variable to true
                     userAuthenticated = true;
                     $("#loginPage").hide();
-                    $("#mainPage").show();
+                    // $("#mainPage").show();
+                    $("#homePage").show();
                     $("#navBar").show();
 
 

@@ -51,6 +51,12 @@
       "id": 4
     },
     {
+      "userId": "2",
+      "habitName": "78 push ups",
+      "timeStamp": "Thu Jun 21 2018 15:52:48 GMT-0500 (CDT)",
+      "id": 4
+    },
+    {
       "userId": "1",
       "habitName": "eat chicken tenders",
       "timeStamp": "Thu Jun 21 2018 15:53:31 GMT-0500 (CDT)",
@@ -58,26 +64,26 @@
     },
     {
       "userId": "1",
-      "habitName": "bloop",
-      "timeStamp": "Thu Jun 21 2018 16:04:17 GMT-0500 (CDT)",
+      "habitName": "write poetry",
+      "timeStamp": "Fri Jun 29 2018 15:31:12 GMT-0500 (CDT)",
       "id": 6
     },
     {
       "userId": "1",
       "habitName": "",
-      "timeStamp": "Thu Jun 21 2018 16:04:21 GMT-0500 (CDT)",
+      "timeStamp": "Fri Jun 29 2018 15:38:19 GMT-0500 (CDT)",
       "id": 7
     },
     {
       "userId": "1",
-      "habitName": "chicken",
-      "timeStamp": "Thu Jun 21 2018 16:04:27 GMT-0500 (CDT)",
+      "habitName": "",
+      "timeStamp": "Fri Jun 29 2018 15:39:52 GMT-0500 (CDT)",
       "id": 8
     },
     {
       "userId": "1",
-      "habitName": "floooooosh",
-      "timeStamp": "Fri Jun 22 2018 16:06:09 GMT-0500 (CDT)",
+      "habitName": "",
+      "timeStamp": "Fri Jun 29 2018 15:39:54 GMT-0500 (CDT)",
       "id": 9
     }
   ],

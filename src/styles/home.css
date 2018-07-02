@@ -18,31 +18,16 @@
 }
 
 .incomplete > button {
-    background-color: block;
+    /* background-color: block; */
+    width:30px;
+    height:15px;
 }
 
-/* text = document.createTextNode(1)
-            console.log(column)
-
-            column.style.color = "rgb(32, 182, 18)";
-            columnDiv.style.backgroundColor = "rgb(32, 182, 18)";
-            columnDiv.style.border = "thin solid #FFFFFF";
-            columnDiv.style.width = "10%";
-            columnDiv.style.height = "10%";
-            columnDiv.style.display = "inline";
-            columnDiv.style.padding = "5px 9px"
-            columnDiv.style.margin= "3px"
-            // columnDiv.onclick.toggle("#col")
 
 
+.complete > button {
+    /* background-color: block; */
+    width:30px;
+    height:15px;
+}
 
-        } else {
-            text = document.createTextNode(0)
-            column.style.color = "#DCDCDC";
-            columnDiv.style.backgroundColor = "#DCDCDC";
-            columnDiv.style.border = "thin solid #FFFFFF"
-            columnDiv.style.width = "10%";
-            columnDiv.style.height = "10%";
-            columnDiv.style.display = "inline";
-            columnDiv.style.padding = "5px 9px"
-            columnDiv.style.margin= "3px" */

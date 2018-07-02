@@ -5,9 +5,10 @@ const activeUser = Object.create(null, {
 
     //get user from session storage
     "getActiveUser": {
-        value: () =>
+        value: () => {
             //note the need below to JSON.parse the item we get from session storage.
-           JSON.parse(sessionStorage.getItem("ActiveUser"))
+            return JSON.parse(sessionStorage.getItem("ActiveUser"))}
+
         },
     //save user to session storage
     "saveActiveUser": {

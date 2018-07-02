@@ -13,4 +13,5 @@ registrationPage();
 navBar();
 settingsPage()
 statsPage()
+homePage()
 

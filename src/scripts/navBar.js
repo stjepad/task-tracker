@@ -24,7 +24,7 @@ home.textContent = "HOME"
 home.onclick = function () {
   hideAll()
   $("#homePage").show();
-  homePage()
+  // homePage()
 
 }
 
